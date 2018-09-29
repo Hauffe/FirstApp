@@ -8,7 +8,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Calculator"
         android:layout_gravity="center_horizontal"
         android:textSize="24sp"
         android:textStyle="bold|italic"
@@ -20,15 +20,12 @@
         android:orientation="horizontal"
         android:layout_margin="15dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Primeiro numero: "/>
 
         <EditText
             android:id="@+id/frstNum"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
 
     </LinearLayout>
 
@@ -39,18 +36,18 @@
         android:layout_margin="15dp">
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Subtracao"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="_"
             android:layout_gravity="center_horizontal"
             android:onClick="btnSubOnClick"/>
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_gravity="center_horizontal"
             android:onClick="btnSomaOnClick"
-            android:text="Soma" />
+            android:text="+" />
 
     </LinearLayout>
 
@@ -60,15 +57,11 @@
         android:orientation="horizontal"
         android:layout_margin="15dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Segundo numero: "/>
-
         <EditText
             android:id="@+id/secNum"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
 
     </LinearLayout>
 
